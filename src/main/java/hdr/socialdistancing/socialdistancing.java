@@ -20,7 +20,7 @@ public class socialdistancing {
         for(Player p: Sponge.getServer().getOnlinePlayers()){
             Location<World> loc2 = p.getLocation();
             double playerDistance = loc1.getPosition().distance(loc2.getPosition());
-            if(playerDistance < 3 && playerDistance != 0){
+            if(playerDistance < 3 && playerDistance != 0 && !player.hasPermission("spring.break") && !p.hasPermission("spring.break")){
                 double xVelocity;
                 double zVelocity;
                 if(player.getVelocity().getX() < 0){ xVelocity = player.getVelocity().getX() + 2; } else { xVelocity = player.getVelocity().getX() - 2;}
