@@ -1,0 +1,17 @@
+[
+    {
+        "modid": "socialdistancing",
+        "name": "Social Distancingw",
+        "version": "1.0",
+        "description": "Practice Social Distancing, keep your fellow players safe!",
+        "authorList": [
+            "HDR"
+        ],
+        "dependencies": [
+            "spongeapi@7.2.0-SNAPSHOT"
+        ],
+        "requiredMods": [
+            "spongeapi@7.2.0-SNAPSHOT"
+        ]
+    }
+]
